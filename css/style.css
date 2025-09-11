@@ -1,0 +1,145 @@
+/*Header,footer,butten,main element for home page*/
+/* Hear style header and footer*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    flex: 1;
+    padding: 0px;
+    margin: 0px;
+}
+/*top-header*/
+
+.top-header {
+    background-color: #0077b5;
+    color: white;
+    padding : 15px;
+}
+
+/*Header CSS*/
+header {
+    background-color: rgb(217, 145, 21);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* Align items to the ends */
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 18px;
+    padding: 3px;
+    display: flex;
+    /* Display list items horizontally */
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.log-content .btn {
+    display: inline-block;
+    padding: 8px 19px;
+    margin: 15px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    color: black;
+    font-size: 18px;
+}
+
+.log-content .btn:hover {
+    transform: scale(1.04); /* Makes the button 10% bigger */
+}
+
+/*Header content*/
+.header-content {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 2rem;
+    transition: color 0.3s transform ease;
+    position: relative;
+    overflow: hidden;
+}
+.social-icons a::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    width: 200%;
+    height: 400%;
+    background: radial-gradient(circle, rgba(255,255,255,0.2) 20%, rgba(255,255,255,0) 70%);
+    transform: translate(-50%, -50%) rotate(25deg);
+    transition: left 0.5s ease;
+}
+.social-icons a:hover::before {
+    left: 100%;
+}
+.social-icons a.github:hover {
+    color: #0a2e5c;
+}
+
+.social-icons a.twitter:hover {
+    color: #1da1f2;
+}
+.social-icons a.linkedin:hover {
+    color: #0077b5;
+}
+
+/*I made class for all button in the Home page*/
+/*.btn {
+    display: inline-block;
+    padding: 8px 19px;
+    margin: 15px;
+    background-color: rgb(3, 3, 32);
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+}
+
+/*Footer CSS*/
+
+footer {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(13, 13, 41);
+    padding: 20px 0;
+    color: white;
+    margin: 0px;
+}
+
+/* End Footer*/
+
+.End-footer {
+    display: block;
+    text-align: center;
+}
