@@ -12,7 +12,6 @@
 
 <main>
    <p>Welcome to our website</p>
-   <a herf="../public/login.php" class="btn">Login</a>
 </main>
 
 
