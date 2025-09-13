@@ -36,7 +36,7 @@
     <nav>
         <ul>
             <li><a href="../public/index.php">Home page</a></li>
-            <li><a href="../public/index.php">About Us</a></li>
+            <li><a href="../public/about.view.php">About Us</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Servers</a></li>
             <li><a href="#">Contact Us</a></li>

@@ -11,9 +11,6 @@
     
   <footer>
 
-  
-
-
   <section class="End-footer">
     <div class="End-content">
         <p>Created by Faisal <?php echo date("Y");?> &copy;</p> <!--We add PHP code to show the date automatically every year-->

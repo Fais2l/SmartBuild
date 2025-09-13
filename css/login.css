@@ -1,0 +1,137 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+/* Container styling */
+.login-container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+/* Heading styling */
+.login-container h2 {
+    margin-bottom: 20px;
+    color:#0a2e5c;
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Label styling */
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Input field styling */
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color:#0a2e5c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover { 
+    transform: scale(1.02); /* Makes the button 10% bigger */
+}
+
+.forget{
+    font-size: 14px;
+    text-align: right;
+}
+.log-in{
+    display: flex;
+    margin-top: 24px;
+}
+.creat-account{
+    margin-top: 12px;
+}
+.creat-account a{
+    text-decoration: none;
+    color: white;
+}
+.creat-account a:hover{
+ /*add some hover here*/
+    text-decoration: underline;
+}
+
+/*social media icons*/
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 50px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color:#0a2e5c;
+    font-size: 2rem;
+    transition: color 0.3s transform ease;
+    position: relative;
+    overflow: hidden;
+}
+.social-icons a::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    width: 200%;
+    height: 400%;
+    background: radial-gradient(circle, rgba(255,255,255,0.2) 20%, rgba(255,255,255,0) 70%);
+    transform: translate(-50%, -50%) rotate(25deg);
+    transition: left 0.5s ease;
+}
+.social-icons a:hover::before {
+    left: 100%;
+}
+.social-icons a.github:hover {
+    color: #0a2e5c;
+}
+
+.social-icons a.twitter:hover {
+    color: #1da1f2;
+}
+.social-icons a.linkedin:hover {
+    color: #0077b5;
+}
+
+
+
+/*forget page css*/
+

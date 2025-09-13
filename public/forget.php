@@ -11,21 +11,11 @@
         <h2>Login</h2>
         <form action="login.php" method="post">
             <div class="input-group">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your emaill" required>
             </div>
-            <div class="input-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" placeholder="Enter your password" required>
-            </div>
-            <div class="forget">
-                <a href="forget.php">Forget your password ?</a>
-            </div>
-            <div class="log-in">
-                <button type="submit">Log in</button>
-            </div>
-            <div class="creat-account">
-                <button type="button"><a href="signin.php">Creat Account</a></button>
+            <div class="home-page">
+                <button type="button"><a href="index.php">Back to the Home Page</a></button>
             </div>
             
             <!--social media icons html-->
