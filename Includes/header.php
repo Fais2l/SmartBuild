@@ -62,10 +62,18 @@
     </nav>
   </div>
 
-    <!--Profil Account-->
-       <div class="profil-icon">
-         <img src="your-photo.jpg" alt="Profile" id="profileToggle">
-      </div>
+     
+    <!--Profil Section-->
+
+  <div class="profile-icon">
+   <i class="fa-solid fa-user"></i>
+   <h3>FAisal</h3> <!-- <?php echo $_SESSION['username']; ?>-->
+  </div>
+
+
+   <!--Profile Card-->
+
+
       
 
 <!--Sign up & Login pages-->
@@ -81,6 +89,7 @@
 
 
 
+<script src="../js/profile.js"></script>
 
 
 </body>
