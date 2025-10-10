@@ -135,3 +135,28 @@ button:hover {
 
 /*forget page css*/
 
+.forget-container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 400px;
+    text-align: center;
+}
+
+.home-page button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color:#0a2e5c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.home-page a {
+    text-decoration: none;
+    color: white;
+}

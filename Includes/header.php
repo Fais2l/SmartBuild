@@ -13,18 +13,36 @@
 
  <div class="top-header">
         <div class="social-icons">
-                <p>
-                <a href="https://github.com/Fais2l" target="_blank" class="emaill">
-                    <i class="fab fa-github"></i>
-                    wlcfaisall@gmail.com
+               <a href="https://www.facebook.com" target="_blank" class="facebook">
+                   <i class="fa-brands fa-facebook"></i>
                 </a>
                 <a href="https://twitter.com/yourusername" target="_blank" class="twitter">
                     <i class="fab fa-twitter"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/faisal-mzyad-ab507030b/?trk=public-profile-join-page" target="_blank" class="linkedin">
-                    <i class="fab fa-linkedin-in"></i>
+                 <a href="https://www.youtube.com" target="_blank" class="youtube">
+                   <i class="fa-brands fa-youtube"></i>
+                </a>
+                  <a href="https://www.instagram" target="_blank" class="youtube">
+                   <i class="fa-brands fa-instagram"></i>
                 </a>
             </div>
+            
+           <!--Top header content-->
+
+           <div class="top-content">
+                 <a href="https://www.google.com/maps/place/Riyadh" target="_blank" class="Location">
+                   <i class="fa-solid fa-location-dot"></i>
+                   <span>Riyadh, Saudi Arabia</span>
+                </a>
+                <a href="mailto:wlcfaisall@gmail.com" target="_blank" class="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>wlcfaisall@gmail.com</span>
+                </a>
+                  <a href="tel:+966568434963" target="_blank" class="PhoneNumber">
+                  <i class="fa-solid fa-phone"></i>
+                  <span>966568434963</span>
+                </a>
+           </div>
  </div>
 
  <!--Header list-->
@@ -39,10 +57,16 @@
             <li><a href="../public/about.view.php">About Us</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Servers</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="../public/contact.us.php">Contact Us</a></li>
         </ul>
     </nav>
   </div>
+
+    <!--Profil Account-->
+       <div class="profil-icon">
+         <img src="your-photo.jpg" alt="Profile" id="profileToggle">
+      </div>
+      
 
 <!--Sign up & Login pages-->
 
@@ -51,7 +75,7 @@
   </div>
 
 
- </header
+</header>
 
 
 
